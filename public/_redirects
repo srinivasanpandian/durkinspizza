@@ -1,5 +1,5 @@
 # Prerender.io integration
-/*  https://service.prerender.io/https://durkinpizza.netlify.app/:splat  200!  User-Agent=prerender
+/*  https://service.prerender.io/https://durkinspizza.netlify.app/:splat  200!  User-Agent=prerender
 
 # Netlify SPA redirects - all routes go to index.html
 /*    /index.html   200
