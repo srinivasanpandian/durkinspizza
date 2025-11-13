@@ -10,6 +10,17 @@
   # Node version
   NODE_VERSION = "18"
 
+# Exclude Netlify verification paths from SPA redirects
+[[redirects]]
+  from = "/.well-known/*"
+  to = "/.well-known/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/.netlify/*"
+  to = "/.netlify/:splat"
+  status = 200
+
 # Redirect rules for SPA routing
 [[redirects]]
   from = "/*"

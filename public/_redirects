@@ -1,3 +1,7 @@
+# Exclude Netlify verification paths from redirects
+/.well-known/*    /.well-known/:splat   200
+/.netlify/*    /.netlify/:splat   200
+
 # Prerender.io integration
 /*  https://service.prerender.io/https://durkinspizza.netlify.app/:splat  200!  User-Agent=prerender
 
