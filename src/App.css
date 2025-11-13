@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Baloo+2:wght@400..800&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Fredoka:wght@300..700&family=Gabarito:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Island+Moments&family=Lalezar&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+/* ! font Family */
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Baloo 2", sans-serif; */
+/* font-family: "Gabarito", sans-serif; */
+/* font-family: "Epilogue", sans-serif; */
+/* font-family: "Island Moments", cursive; */
+/* font-family: "Lalezar", sans-serif; */
+/* font-family: "Oswald", sans-serif; */
+/* font-family: "Nunito", sans-serif; */
+/* font-family: "Poppins", sans-serif; */
+/* font-family: "Archivo", sans-serif; */
+/* font-family: "Montserrat", sans-serif; */
+/* font-family: "Fraunces", serif; */
+/* font-family: "Montserrat Alternates", sans-serif; */
+/* font-family: 'Fredoka One', cursive; */
+
+
+/* ! variables */
+:root {
+  /* ! color */
+  --red-color: #EF2A25;
+  --red-2-color: #ff0000;
+  --red-3-color: #FF0303;
+  --red-4-color: #FE3737;
+  --red-5-color: #FF0505;
+  --red-6-color: #F03433;
+  --red-orange-color: #FA3808;
+  --yellow-color: #FFC700;
+  --green-color: #182F31;
+  --black-color: #000000;
+  --black-2-color: #231F20;
+  --black-3-color: #212121;
+  --white-color: #FFFFFF;
+  --white-2-color: #F8F8F8;
+  --gray-color: #555555;
+
+  /* ! font family */
+  --Inter: 'Inter', sans-serif;
+  --Baloo2: 'Baloo 2', sans-serif;
+  --Gabarito: 'Gabarito', sans-serif;
+  --Epilogue: 'Epilogue', sans-serif;
+  --IslandMoments: 'Island Moments', cursive;
+  --Lalezar: 'Lalezar', sans-serif;
+  --Oswald: 'Oswald', sans-serif;
+  --Nunito: 'Nunito', sans-serif;
+  --Poppins: 'Poppins', sans-serif;
+  --Archivo: 'Archivo', sans-serif;
+  --Montserrat: 'Montserrat', sans-serif;
+  --Fraunces: 'Fraunces', serif;
+  --MontserratAlternates: 'Montserrat Alternates', sans-serif;
+  --FredokaOne: 'Fredoka One', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

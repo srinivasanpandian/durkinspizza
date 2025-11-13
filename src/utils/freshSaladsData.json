@@ -1,0 +1,68 @@
+{
+  "freshSalads": [
+    {
+      "image": "/img/menu-items/freshSalads.png",
+      "name": "Arugula",
+      "description": "organic arugula · shredded mozzarella · toasted almonds · fresh strawberries · fat-free raspberry vinaigrette",
+      "halfPrice": "$5.99",
+      "fullPrice": "$9.99",
+      "menu-item-extra-label": "Add chicken to any salad",
+      "menu-item-extra-price-half": "+$2.75",
+      "menu-item-extra-price-full": "+$3.75"
+    },
+    {
+      "name": "Caesar",
+      "description": "romaine · grated parmesan cheese · garlic croutons · fresh cracked pepper · classic creamy Caesar dressing",
+      "halfPrice": "$5.99",
+      "fullPrice": "$9.99",
+      "menu-item-extra-label": "Add chicken to any salad",
+      "menu-item-extra-price-half": "+$2.75",
+      "menu-item-extra-price-full": "+$3.75"
+    },
+    {
+      "name": "Greek",
+      "description": "romaine · roasted red peppers · cucumbers · feta · black olives · red onions · tomatoes · red wine vinaigrette",
+      "halfPrice": "$5.99",
+      "fullPrice": "$9.99",
+      "menu-item-extra-label": "Add chicken to any salad",
+      "menu-item-extra-price-half": "+$2.75",
+      "menu-item-extra-price-full": "+$3.75"
+    },
+    {
+      "name": "Spinach",
+      "description": "baby spinach · bacon · fresh sliced mushrooms · fresh sliced red onions · honey-dijon dressing",
+      "halfPrice": "$5.99",
+      "fullPrice": "$9.99",
+      "menu-item-extra-label": "Add chicken to any salad",
+      "menu-item-extra-price-half": "+$2.75",
+      "menu-item-extra-price-full": "+$3.75"
+    },
+    {
+      "name": "Italian Chopped",
+      "description": "romaine · black olives · mozzarella · cherry tomatoes · fresh red onions · roasted red bell pepper · Italian vinaigrette",
+      "halfPrice": "$5.99",
+      "fullPrice": "$9.99",
+      "menu-item-extra-label": "Add chicken to any salad",
+      "menu-item-extra-price-half": "+$2.75",
+      "menu-item-extra-price-full": "+$3.75"
+    },
+    {
+      "name": "House",
+      "description": "romaine · mozzarella · bacon · fresh mushrooms · parmesan · Italian vinaigrette",
+      "halfPrice": "$5.99",
+      "fullPrice": "$9.99",
+      "menu-item-extra-label": "Add chicken to any salad",
+      "menu-item-extra-price-half": "+$2.75",
+      "menu-item-extra-price-full": "+$3.75"
+    },
+    {
+      "name": "Add Chicken to Any Salad",
+      "description": "Add chicken to any salad for an additional charge",
+      "halfPrice": "$8.74",
+      "fullPrice": "$13.74",
+      "menu-item-extra-label": "Add chicken to any salad",
+      "menu-item-extra-price-half": "+$2.75",
+      "menu-item-extra-price-full": "+$3.75"
+    }
+  ]
+}

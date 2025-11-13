@@ -1,0 +1,127 @@
+/* Order online page specific hamburger menu color */
+.order-online-page-layout .hamburger span {
+    background: var(--black-2-color) !important;
+}
+
+.order-online-page-layout {
+    background: url(../../assets/images/MenuPage/menu-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.order-online-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.order-online-banner {
+    background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+    color: white;
+    padding: 60px 0 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.order-online-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="pizza-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="2" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23pizza-pattern)"/></svg>');
+    opacity: 0.3;
+}
+
+.order-online-banner-content {
+    position: relative;
+    z-index: 1;
+}
+
+.order-online-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.order-online-location {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #ffd700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.order-online-desc {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.order-online-content {
+    /* padding: 40px 0; */
+}
+
+.order-online-iframe-container {
+    background: white;
+    border-radius: 0;
+    box-shadow: none;
+    overflow: hidden;
+    margin: 0;
+    max-width: none;
+    width: 100%;
+    position: relative;
+}
+
+.order-online-iframe {
+    width: 100%;
+    height: 100vh;
+    border: none;
+    display: block;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .order-online-title {
+        font-size: 2.2rem;
+    }
+
+    .order-online-location {
+        font-size: 1.4rem;
+    }
+
+    .order-online-desc {
+        font-size: 1rem;
+    }
+
+    .order-online-banner {
+        padding: 40px 0 30px;
+    }
+
+    .order-online-content {
+        padding: 0;
+    }
+
+    .order-online-iframe {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .order-online-title {
+        font-size: 1.8rem;
+    }
+
+    .order-online-location {
+        font-size: 1.2rem;
+    }
+
+    .order-online-iframe {
+        height: 100vh;
+    }
+}

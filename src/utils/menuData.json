@@ -1,0 +1,528 @@
+{
+  "menu": [
+    {
+      "menu-category": "Make Your Pizza",
+      "menu-category-slug": "make-your-pizza",
+      "menu-category-desc": "Freshly Made Dough, Perfect Crust",
+      "menu-image": "/img/menu-items/makeYourPizza.png",
+      "menu-items": [
+        {
+          "menu-item-name": "10\" Small",
+          "menu-item-price": "$7.99",
+          "menu-item-desc": "Perfect for individual servings",
+          "premium": false
+        },
+        {
+          "menu-item-name": "10\" Gluten-Free (Rice Flour)",
+          "menu-item-price": "$10.99",
+          "menu-item-desc": "Gluten-free option",
+          "premium": false
+        },
+        {
+          "menu-item-name": "14\" Medium",
+          "menu-item-price": "$15.99",
+          "menu-item-desc": "Great for sharing with friends",
+          "premium": false
+        },
+        {
+          "menu-item-name": "10\" Gluten-Free (Ancient Grains)",
+          "menu-item-price": "$13.99",
+          "menu-item-desc": "Nutritious and delicious",
+          "premium": false
+        },
+        {
+          "menu-item-name": "16\" Large",
+          "menu-item-price": "$17.99",
+          "menu-item-desc": "Family size for the whole crew",
+          "premium": false
+        },
+        {
+          "menu-item-name": "10\" Cauliflower Crust",
+          "menu-item-price": "$13.99",
+          "menu-item-desc": "Low-carb alternative",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "menu-category": "Veggie Toppings",
+      "menu-category-slug": "veggie-toppings",
+      "menu-category-desc": "Choose your favorite veggie toppings",
+      "menu-image": "/img/menu-items/vegToppings.png",
+      "menu-items": [
+        {
+          "menu-item-name": "Green Peppers",
+          "menu-item-price": "$2.25",
+          "menu-item-desc": "Fresh green bell peppers",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Fresh sliced cherry tomatoes",
+          "menu-item-price": "$2.25",
+          "menu-item-desc": "Sweet cherry tomato slices",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Green olives",
+          "menu-item-price": "$2.25",
+          "menu-item-desc": "Brine-cured green olives",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Black olives",
+          "menu-item-price": "$2.25",
+          "menu-item-desc": "Ripe black olives",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Fresh white onions",
+          "menu-item-price": "$2.25",
+          "menu-item-desc": "Crisp white onion slices",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Fresh red onions",
+          "menu-item-price": "$2.25",
+          "menu-item-desc": "Sweet red onion rings",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Roasted red peppers",
+          "menu-item-price": "$2.25",
+          "menu-item-desc": "Charred red bell peppers",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Fresh mushrooms",
+          "menu-item-price": "$2.25",
+          "menu-item-desc": "Sliced white mushrooms",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Jalapeños",
+          "menu-item-price": "$2.25",
+          "menu-item-desc": "Spicy jalapeño slices",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Pineapple",
+          "menu-item-price": "$2.25",
+          "menu-item-desc": "Sweet pineapple chunks",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Spinach",
+          "menu-item-price": "$2.25",
+          "menu-item-desc": "Fresh baby spinach leaves",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Artichokes",
+          "menu-item-price": "$2.25",
+          "menu-item-desc": "Marinated artichoke hearts",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "menu-category": "Meat Toppings",
+      "menu-category-slug": "meat-toppings",
+      "menu-category-desc": "Choose your favorite meat toppings",
+      "menu-image": "/img/menu-items/nonVegtoppings.png",
+      "menu-items": [
+        {
+          "menu-item-name": "Italian sausage",
+          "menu-item-price": "$2.25",
+          "menu-item-desc": "Spicy Italian sausage crumbles",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Canadian bacon",
+          "menu-item-price": "$2.25",
+          "menu-item-desc": "Lean Canadian bacon slices",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Hamburger",
+          "menu-item-price": "$2.25",
+          "menu-item-desc": "Seasoned ground beef",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Pork sausage",
+          "menu-item-price": "$2.25",
+          "menu-item-desc": "Savory pork sausage",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Pepperoni",
+          "menu-item-price": "$2.25",
+          "menu-item-desc": "Classic pepperoni slices",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Bacon",
+          "menu-item-price": "$2.75",
+          "menu-item-desc": "Crispy bacon bits",
+          "premium": true
+        },
+        {
+          "menu-item-name": "Chorizo",
+          "menu-item-price": "$2.75",
+          "menu-item-desc": "Spicy Spanish chorizo",
+          "premium": true
+        },
+        {
+          "menu-item-name": "Chicken",
+          "menu-item-price": "$2.75",
+          "menu-item-desc": "Grilled chicken breast",
+          "premium": true
+        },
+        {
+          "menu-item-name": "Meatballs",
+          "menu-item-price": "$2.75",
+          "menu-item-desc": "Homemade meatballs",
+          "premium": true
+        },
+        {
+          "menu-item-name": "Anchovy",
+          "menu-item-price": "$2.75",
+          "menu-item-desc": "Salty anchovy fillets",
+          "premium": true
+        }
+      ]
+    },
+    {
+      "menu-category": "Lunch Specials",
+      "menu-category-slug": "lunch-specials",
+      "menu-category-desc": "Available Monday to Sunday from 11am to 4pm",
+      "menu-image": "/img/menu-items/lunchSpecials.png",
+      "menu-items": [
+        {
+          "menu-item-name": "Pizza Topping Sandwich",
+          "menu-item-price": "$8.99",
+          "menu-item-desc": "7\" hoagie roll topped with our house pizza sauce, mozzarella + choice of 4 regular toppings",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Small Cheese Pizza",
+          "menu-item-price": "$6.99",
+          "menu-item-desc": "Classic cheese pizza with marinara sauce",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Meatball Sub",
+          "menu-item-price": "$7.99",
+          "menu-item-desc": "Homemade meatballs with melted cheese",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "menu-category": "Baked Chicken Wings",
+      "menu-category-slug": "baked-chicken-wings",
+      "menu-category-desc": "Crispy wings with your favorite flavors(bone-in wings)",
+      "menu-image": "/img/menu-items/bakedChickenWings.png",
+      "menu-items": [
+        {
+          "menu-item-name": "6 Wings",
+          "menu-item-price": "$9.99",
+          "menu-item-desc": "Perfect starter portion",
+          "menu-item-extra-label": "Add Carrots & Celery with ranch",
+          "menu-item-extra-price": "+$2.25",
+          "premium": false
+        },
+        {
+          "menu-item-name": "12 Wings",
+          "menu-item-price": "$18.99",
+          "menu-item-desc": "Great for sharing",
+          "menu-item-extra-label": "Add Carrots & Celery with ranch",
+          "menu-item-extra-price": "+$2.25",
+          "premium": false
+        },
+        {
+          "menu-item-name": "20 Wings",
+          "menu-item-price": "$26.99",
+          "menu-item-desc": "Party size portion",
+          "menu-item-extra-label": "Add Carrots & Celery with ranch",
+          "menu-item-extra-price": "+$2.25",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "menu-category": "Beer Batterd Fries",
+      "menu-category-slug": "beer-battered-fries",
+      "menu-category-desc": "Crispy golden fries with beer batter",
+      "menu-image": "/img/menu-items/beerBatteredFries.png",
+      "menu-items": [
+        {
+          "menu-item-name": "Small Fries",
+          "menu-item-price": "$4.99",
+          "menu-item-desc": "Perfect starter portion",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Medium Fries",
+          "menu-item-price": "$6.99",
+          "menu-item-desc": "Great for sharing",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Large Fries",
+          "menu-item-price": "$8.99",
+          "menu-item-desc": "Party size portion",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "menu-category": "Sandwiches & Calzones",
+      "menu-category-slug": "sandwiches-calzones",
+      "menu-category-desc": "Hearty handheld favorites",
+      "menu-image": "/img/menu-items/sandwichesCalzones.png",
+      "menu-items": [
+        {
+          "menu-item-name": "Pizza Topping Sandwich",
+          "menu-item-price": "$9.99",
+          "menu-item-desc": "Your favorite pizza toppings in sandwich form",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Calzone",
+          "menu-item-price": "$10.99",
+          "menu-item-desc": "Folded pizza filled with cheese and toppings",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Meatball Sub",
+          "menu-item-price": "$8.99",
+          "menu-item-desc": "Homemade meatballs in marinara sauce",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "menu-category": "Pasta & Bread",
+      "menu-category-slug": "pasta-bread",
+      "menu-category-desc": "Italian classics made fresh",
+      "menu-image": "/img/menu-items/pastaBread.png",
+      "menu-items": [
+        {
+          "menu-item-name": "Durkin's Famous Cheesy Bread",
+          "menu-item-price": "$6.75",
+          "menu-item-desc": "Warm bread with melted cheese",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Spaghetti",
+          "menu-item-price": "$9.99",
+          "menu-item-desc": "Classic spaghetti with marinara.",
+          "menu-item-extra-label": "Add Meatballs",
+          "menu-item-extra-price": "+$2.75",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Fettuccine Alfredo",
+          "menu-item-price": "$9.99",
+          "menu-item-desc": "Creamy alfredo sauce over fettuccine.",
+          "menu-item-extra-label": " Add Sausage (or) Spinach/Chicken",
+          "menu-item-extra-price": "+$2.25/$2.75",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "menu-category": "Breads",
+      "menu-category-slug": "sweet-desserts",
+      "menu-category-desc": "Freshly baked to delight",
+      "menu-image": "/img/menu-items/breads.png",
+      "menu-items": [
+        {
+          "menu-item-name": "Cinnamon Ugly Bread",
+          "menu-item-price": "$6.99",
+          "menu-item-desc": "Sweet cinnamon bread with icing",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Marshmallow Messy Bread",
+          "menu-item-price": "$8.99",
+          "menu-item-desc": "Decadent bread with marshmallows",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "menu-category": "Cake",
+      "menu-category-slug": "sweet-desserts",
+      "menu-category-desc": "A slice of joy",
+      "menu-image": "/img/menu-items/sweetDesserts.png",
+      "menu-items": [
+        {
+          "menu-item-name": "New York Plain Cheesecake",
+          "menu-item-price": "$6.99",
+          "menu-item-desc": "Real Cream Cheese in a graham crust finished with a light sour cream topping.",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Triple Chocolate Cheesecake",
+          "menu-item-price": "$6.99",
+          "menu-item-desc": "Cheesecake with a rich chocolate experience.",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Red Velvet Cheesecake",
+          "menu-item-price": "$7.99",
+          "menu-item-desc": "The luscious combination of moist red velvet cake and creamy cheesecake is a celebration for your senses, creating a heavenly culinary experience.",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "menu-category": "Frozen desserts",
+      "menu-category-slug": "sweet-desserts",
+      "menu-category-desc": "Cool treat to cherish",
+      "menu-image": "/img/menu-items/frozenDesserts.png",
+      "menu-items": [
+        {
+          "menu-item-name": "Fudge Bar",
+          "menu-item-price": "$1.50",
+          "menu-item-desc": "A delectable, fudge flavored frozen treat to satisfy any craving.",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Big Vanilla Sandwich",
+          "menu-item-price": "$3.99",
+          "menu-item-desc": "Creamy vanilla dessert layered between chocolate wafers.",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Big Bopper Sandwich",
+          "menu-item-price": "$4.99",
+          "menu-item-desc": "Vanilla frozen dairy dessert between two chocolate chip cookies.",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Ice cream Macarons",
+          "menu-item-price": "$8.50",
+          "menu-item-desc": "Almond meringue cookies with rich ice cream filling in chocolate, vanilla, and strawberry flavors.",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "menu-category": "Beer",
+      "menu-category-slug": "beverages",
+      "menu-category-desc": "The chill your meal deserves",
+      "menu-image": "/img/menu-items/beverages.png",
+      "disclaimer": "Please Drink Responsibly because, Durkin’s Pizza is not a bar and You should know better !",
+      "menu-items": [
+        {
+          "menu-item-name": "Blue Moon",
+          "menu-item-price": "$4.99",
+          "menu-item-desc": "Chilled bottled beer",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Bud Light",
+          "menu-item-price": "$4.50",
+          "menu-item-desc": "Chilled bottled beer",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Coors Light",
+          "menu-item-price": "$4.50",
+          "menu-item-desc": "Chilled bottled beer",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Dos XX",
+          "menu-item-price": "$4.99",
+          "menu-item-desc": "Chilled bottled beer",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Lone Star",
+          "menu-item-price": "$4.99",
+          "menu-item-desc": "Chilled bottled beer",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Michelob Ultra",
+          "menu-item-price": "$4.99",
+          "menu-item-desc": "Chilled bottled beer",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Miller Lite",
+          "menu-item-price": "$4.50",
+          "menu-item-desc": "Chilled bottled beer",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Peroni",
+          "menu-item-price": "$4.99",
+          "menu-item-desc": "Chilled bottled beer",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Shiner Bock",
+          "menu-item-price": "$4.99",
+          "menu-item-desc": "Chilled bottled beer",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Stella Artois",
+          "menu-item-price": "$4.99",
+          "menu-item-desc": "Chilled bottled beer",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "menu-category": "Wine",
+      "menu-category-slug": "beverages",
+      "menu-category-desc": "A fine finish to your feast",
+      "menu-image": "/img/menu-items/wine.png",
+      "disclaimer": "Please Drink Responsibly because, Durkin’s Pizza is not a bar and You should know better !",
+      "menu-items": [
+        {
+          "menu-item-name": "Mirassou Chardonnay",
+          "menu-item-price": "$6.99 / $21",
+          "menu-item-desc": "Glass / Bottle",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Mirassou Merlot",
+          "menu-item-price": "$6.99 / $21",
+          "menu-item-desc": "Glass / Bottle",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Mirassou Pinot Noir",
+          "menu-item-price": "$6.99 / $21",
+          "menu-item-desc": "Glass / Bottle",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Canyon Road Cabernet Sauvignon",
+          "menu-item-price": "$7.99 / $25",
+          "menu-item-desc": "Glass / Bottle",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Louis Martini Cabernet Sauvignon",
+          "menu-item-price": "$9.99 / $30",
+          "menu-item-desc": "Glass / Bottle",
+          "premium": false
+        },
+        {
+          "menu-item-name": "Canyon Road Pinot Grigio",
+          "menu-item-price": "$7.99 / $25",
+          "menu-item-desc": "Glass / Bottle",
+          "premium": false
+        }
+      ]
+    }
+  ]
+}

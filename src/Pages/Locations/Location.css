@@ -1,0 +1,349 @@
+/* ---------- Location Page Banner ---------- */
+.location-page {
+    background: url('../../assets/images/Banner/image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .location-page {
+      height: 80vh;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .location-page {
+      height: 70vh;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .location-page {
+      height: 65vh;
+    }
+  }
+  
+  @media screen and (max-width: 690px) {
+    .location-page {
+      height: 60vh;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .location-page {
+      height: 55vh;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .location-page {
+      height: 50vh;
+    }
+  }
+  
+  @media screen and (max-width: 440px) {
+    .location-page {
+      height: 45vh;
+      background-size: cover;
+    }
+  }
+  
+  @media screen and (max-width: 390px) {
+    .location-page {
+      height: 40vh;
+      background-size: cover;
+    }
+  }
+  
+/* ---------- Location Content ---------- */
+.location-content {
+    background: url('../../assets/images/MenuPage/menu-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    min-height: 100vh;
+    padding: 60px 0;
+}
+
+/* ---------- Card Styling ---------- */
+.location-card {
+    background: var(--white-color);
+    border-radius: 20px;
+    box-shadow: 0 4px 14px 1px rgba(0, 0, 0, 0.05);
+    padding: 40px;
+    margin: 20px 0;
+}
+
+/* ---------- Title ---------- */
+.location-title {
+    font-family: var(--FredokaOne);
+    font-size: 2.5rem;
+    font-weight: 700;
+    /* color: var(--red-2-color); */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* ---------- Info Grid ---------- */
+.location-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+/* ---------- Section Headers ---------- */
+.info-section h3 {
+    font-family: var(--FredokaOne);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--red-2-color);
+    margin-bottom: 15px;
+    border-bottom: 3px solid var(--red-2-color);
+    display: inline-block; /* makes line only as wide as text */
+    padding-bottom: 5px;
+}
+
+/* ---------- Paragraphs ---------- */
+.info-section p {
+    font-family: var(--Epilogue);
+    font-size: 1.1rem;
+    color: var(--black-2-color);
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* ---------- Hours Table ---------- */
+.hours {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hours-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--white-2-color);
+}
+
+.hours-row:last-child {
+    border-bottom: none;
+}
+
+.hours-row span:first-child {
+    font-family: var(--Epilogue);
+    font-weight: 600;
+    color: var(--black-2-color);
+}
+
+.hours-row span:last-child {
+    font-family: var(--Epilogue);
+    color: var(--gray-color);
+}
+
+/* ---------- Services List ---------- */
+.services-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.services-list li {
+    font-family: var(--Epilogue);
+    font-size: 1.1rem;
+    color: var(--black-2-color);
+    padding: 8px 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+.services-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--red-2-color);
+    font-weight: bold;
+}
+
+/* ---------- Buttons ---------- */
+.location-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: var(--Inter);
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    min-width: 150px;
+}
+
+.btn-primary {
+    background: var(--red-2-color);
+    color: var(--white-color);
+}
+
+.btn-primary:hover {
+    background: var(--red-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(239, 62, 54, 0.3);
+}
+
+.btn-secondary {
+    background: var(--black-2-color);
+    color: var(--white-color);
+}
+
+.btn-secondary:hover {
+    background: var(--black-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--red-2-color);
+    border-color: var(--red-2-color);
+}
+
+.btn-outline:hover {
+    background: var(--red-2-color);
+    color: var(--white-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(239, 62, 54, 0.3);
+}
+
+/* ---------- Equal Height Layout ---------- */
+.location-card .d-lg-flex {
+    display: flex;
+    align-items: stretch; /* ensures columns are equal height */
+    flex-wrap: wrap;
+}
+
+.location-img-col {
+    flex: 0 0 40%;
+    display: flex;
+    align-items: stretch; /* fill height */
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.location-img-col img {
+    width: 100%;
+    height: 100%; /* full height of column */
+    object-fit: contain; /* maintains aspect ratio */
+    border-radius: 15px;
+}
+
+.location-info-col {
+    flex: 0 0 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 2rem;
+}
+
+/* ---------- Responsive Adjustments ---------- */
+@media (max-width: 991.98px) {
+    .d-lg-flex {
+        display: block !important;
+    }
+    .location-img-col {
+        max-width: 100% !important;
+        margin-bottom: 20px !important;
+        justify-content: center;
+        padding: 0.25rem;
+    }
+    .location-info-col {
+        width: 100%;
+        margin-left: 0 !important;
+        justify-content: center;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .location-card {
+        padding: 30px 20px;
+        margin: 10px 0;
+    }
+
+    .location-title {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .location-info {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin-bottom: 30px;
+    }
+
+    .info-section h3 {
+        font-size: 1.3rem;
+    }
+
+    .info-section p {
+        font-size: 1rem;
+    }
+
+    .hours-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .location-actions {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .location-content {
+        padding: 40px 0;
+    }
+
+    .location-card {
+        padding: 20px 15px;
+    }
+
+    .location-title {
+        font-size: 1.8rem;
+    }
+
+    .info-section h3 {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px 25px;
+    }
+
+    .location-info-col {
+        padding: 0 0.5rem;
+    }
+}

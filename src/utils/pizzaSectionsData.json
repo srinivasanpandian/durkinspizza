@@ -1,0 +1,230 @@
+{
+    "specialtyPizzas": [
+        {
+            "pizza-name": "Four Cheese",
+            "pizza-description": "mozzarella, feta, cheddar, parmesan",
+            "pizza-image": "/img/menu-items/specialtyPizzas.png",
+            "prices": {
+                "small": "$12.99",
+                "medium": "$20.99",
+                "large": "$22.99"
+            },
+            "premium": false
+        },
+        {
+            "pizza-name": "Meat",
+            "pizza-description": "pepperoni, hamburger, Italian sausage, bacon",
+            "pizza-image": "/img/menu-items/specialtyPizzas.png",
+            "prices": {
+                "small": "$13.99",
+                "medium": "$21.99",
+                "large": "$23.99"
+            },
+            "premium": false
+        },
+        {
+            "pizza-name": "Veggie",
+            "pizza-description": "black olive, red onion, green pepper, mushrooms",
+            "pizza-image": "/img/menu-items/specialtyPizzas.png",
+            "prices": {
+                "small": "$13.99",
+                "medium": "$21.99",
+                "large": "$23.99"
+            },
+            "premium": false
+        },
+        {
+            "pizza-name": "Chorizo Supreme",
+            "pizza-description": "spicy chorizos, red peppers, red onions, mushrooms, jalapenos, four cheese, cilantro",
+            "pizza-image": "/img/menu-items/specialtyPizzas.png",
+            "prices": {
+                "small": "$16.99",
+                "medium": "$24.99",
+                "large": "$26.99"
+            },
+            "premium": false
+        },
+        {
+            "pizza-name": "BBQ Chicken",
+            "pizza-description": "tangy bbq sauce, sliced marinated chicken, cheddar, mozzarella",
+            "pizza-image": "/img/menu-items/specialtyPizzas.png",
+            "prices": {
+                "small": "$13.99",
+                "medium": "$21.99",
+                "large": "$23.99"
+            },
+            "premium": false
+        },
+        {
+            "pizza-name": "Buffalo Chicken",
+            "pizza-description": "spicy buffalo sauce (medium hot), sliced marinated chicken, mozzarella, cheddar",
+            "pizza-image": "/img/menu-items/specialtyPizzas.png",
+            "prices": {
+                "small": "$13.99",
+                "medium": "$21.99",
+                "large": "$23.99"
+            },
+            "premium": false
+        },
+        {
+            "pizza-name": "Kitchen Sink",
+            "pizza-description": "pepperoni, hamburger, italian sausage, green peppers, red onions, black olives",
+            "pizza-image": "/img/menu-items/specialtyPizzas.png",
+            "prices": {
+                "small": "$16.99",
+                "medium": "$24.99",
+                "large": "$26.99"
+            },
+            "premium": false
+        }
+    ],
+    "sauces": [
+        {
+            "pizza-name": "Marinara",
+            "pizza-description": "Classic tomato-based sauce with herbs and spices",
+            "pizza-image": "/img/menu-items/sauce.png",
+            "prices": {
+                "small": "$0.00",
+                "medium": "$0.00",
+                "large": "$0.00"
+            },
+            "premium": false
+        },
+        {
+            "pizza-name": "Buffalo",
+            "pizza-description": "Spicy buffalo sauce with a tangy kick",
+            "pizza-image": "/img/menu-items/sauce.png",
+            "prices": {
+                "small": "$1.00",
+                "medium": "$1.50",
+                "large": "$2.50"
+            },
+            "premium": false
+        },
+        {
+            "pizza-name": "BBQ",
+            "pizza-description": "Sweet and smoky barbecue sauce",
+            "pizza-image": "/img/menu-items/sauce.png",
+            "prices": {
+                "small": "$1.00",
+                "medium": "$1.50",
+                "large": "$2.50"
+            },
+            "premium": false
+        },
+        {
+            "pizza-name": "Tikka",
+            "pizza-description": "Creamy Indian-inspired tikka sauce",
+            "pizza-image": "/img/menu-items/sauce.png",
+            "prices": {
+                "small": "$2.00",
+                "medium": "$2.50",
+                "large": "$3.00"
+            },
+            "premium": false
+        },
+        {
+            "pizza-name": "Alfredo",
+            "pizza-description": "Rich and creamy white sauce",
+            "pizza-image": "/img/menu-items/sauce.png",
+            "prices": {
+                "small": "$1.00",
+                "medium": "$1.50",
+                "large": "$2.50"
+            },
+            "premium": false
+        },
+        {
+            "pizza-name": "Gochujang",
+            "pizza-description": "Korean-inspired spicy and sweet sauce",
+            "pizza-image": "/img/menu-items/sauce.png",
+            "prices": {
+                "small": "$2.00",
+                "medium": "$2.50",
+                "large": "$3.00"
+            },
+            "premium": false
+        }
+    ],
+    "cheeses": [
+        {
+            "pizza-name": "Mozzarella",
+            "pizza-description": "Classic Italian cheese with mild flavor",
+            "pizza-image": "/img/menu-items/cheese.png",
+            "prices": {
+                "small": "$0.00",
+                "medium": "$0.00",
+                "large": "$0.00"
+            },
+            "premium": false
+        },
+        {
+            "pizza-name": "Feta",
+            "pizza-description": "Tangy Greek cheese with crumbly texture",
+            "pizza-image": "/img/menu-items/cheese.png",
+            "prices": {
+                "small": "$0.50",
+                "medium": "$1.00",
+                "large": "$1.50"
+            },
+            "premium": false
+        },
+        {
+            "pizza-name": "Cheddar",
+            "pizza-description": "Sharp and creamy cheese with rich flavor",
+            "pizza-image": "/img/menu-items/cheese.png",
+            "prices": {
+                "small": "$0.50",
+                "medium": "$1.00",
+                "large": "$1.50"
+            },
+            "premium": false
+        },
+        {
+            "pizza-name": "Parmesan",
+            "pizza-description": "Aged Italian cheese with nutty flavor",
+            "pizza-image": "/img/menu-items/cheese.png",
+            "prices": {
+                "small": "$0.50",
+                "medium": "$1.00",
+                "large": "$1.50"
+            },
+            "premium": false
+        },
+        {
+            "pizza-name": "Ricotta Cheese",
+            "pizza-description": "Creamy Italian cheese with smooth texture",
+            "pizza-image": "/img/menu-items/cheese.png",
+            "prices": {
+                "small": "$0.50",
+                "medium": "$1.00",
+                "large": "$1.50"
+            },
+            "premium": false
+        }
+    ],
+    "indianSpecialtyPizzas": [
+        {
+            "pizza-name": "Paneer Tikka (Cottage Cheese)",
+            "pizza-description": "Marinated & cubed paneer in masala gravy, red onion, mozzarella, cilantro",
+            "pizza-image": "/img/menu-items/indianSpecialtyPizzas.png",
+            "prices": {
+                "small": "$14.99",
+                "medium": "$22.99",
+                "large": "$24.99"
+            },
+            "premium": false
+        },
+        {
+            "pizza-name": "Chicken Tikka",
+            "pizza-description": "Marinated & cubed chicken in masala gravy, red onion, mozzarella, cilantro",
+            "pizza-image": "/img/menu-items/madetoOrderPizzas.png",
+            "prices": {
+                "small": "$15.49",
+                "medium": "$23.49",
+                "large": "$25.49"
+            },
+            "premium": false
+        }
+    ]
+}

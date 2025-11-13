@@ -1,0 +1,328 @@
+.fresh-salads-container {
+    background: var(--white-color);
+    box-shadow: 0 4px 14px 1px rgba(0, 0, 0, 0.05);
+    width: 90%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.fresh-salads-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.fresh-salads-title {
+    font-family: var(--FredokaOne);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--red-2-color);
+    margin-bottom: 10px;
+}
+
+.fresh-salads-description {
+    font-family: var(--Epilogue);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--gray-color);
+    margin-bottom: 20px;
+}
+
+.fresh-salads-description::after {
+    content: '';
+    display: block;
+    width: 60% !important;
+    margin: 0 auto;
+    height: 2px;
+    background: var(--gray-color);
+    margin-top: 10px;
+}
+
+.salads-table-container {
+    overflow-x: auto;
+    border-radius: 15px;
+}
+
+.salads-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--white-color);
+    font-family: var(--Epilogue);
+}
+
+.salads-table th {
+    background: var(--white-color);
+    color: var(--black-2-color);
+    padding: 15px 10px;
+    font-family: var(--FredokaOne);
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.item-column {
+    text-align: left !important;
+    padding-left: 20px !important;
+}
+
+.half-column,
+.full-column {
+    min-width: 100px;
+    text-align: center;
+    font-family: var(--FredokaOne);
+    font-size: 1.2rem;
+    font-weight: 300 !important;
+    color: var(--black-2-color);
+}
+
+.salads-table td {
+    padding: 15px 10px;
+    /* border-bottom: 1px solid #e0e0e0; */
+    vertical-align: top;
+}
+
+.salad-row {
+    position: relative;
+}
+
+.salad-row .item-cell{
+    padding: 0px 5px;
+    padding-top: 8px;
+}
+
+.salad-extra-row {
+    position: relative;
+}
+
+.salad-extra-row::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, var(--black-2-color) 0%, transparent 100%);
+    margin-top: 8px;
+}
+
+/* Center extra prices for Half/Full columns in salads table only */
+.salads-table .menu-item-extra-left{
+    padding: 0px 5px;
+    padding-bottom: 10px;
+}
+.salads-table .menu-item-extra-right {
+    text-align: center;
+    padding: 0px 5px;
+    padding-bottom: 14px;
+}
+
+.item-cell {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.item-cell strong {
+    font-family: var(--FredokaOne);
+    font-size: 1.2rem;
+    color: var(--black-2-color);
+    margin-bottom: 7px;
+    font-weight: 300;
+}
+
+.item-cell small {
+    font-size: 0.9rem;
+    color: var(--gray-color);
+    line-height: 1.4;
+    font-family: var(--Epilogue);
+    text-align: left;
+    color: var(--gray-color);
+    font-size: 1rem;
+}
+
+.item-cell small::after {
+    content: '';
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    height: 2px;
+    margin-top: 8px;
+}
+
+.half-price,
+.full-price {
+    text-align: center;
+    font-family: var(--FredokaOne);
+    font-size: 1.2rem;
+    font-weight: 300 !important;
+    color: var(--black-2-color);
+}
+
+@media screen and (max-width: 992px) {
+    .fresh-salads-description::after {
+        width: 100% !important;
+    }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .fresh-salads-container {
+        width: 95%;
+        padding: 20px 15px;
+        margin: 20px auto;
+    }
+
+    .fresh-salads-title {
+        font-size: 1.5rem;
+    }
+
+    .fresh-salads-description {
+        font-size: 1rem;
+    }
+
+    .salads-table th {
+        padding: 10px 5px;
+        font-size: 0.9rem;
+    }
+
+    .salads-table td {
+        padding: 10px 5px;
+    }
+
+    .item-cell strong {
+        font-size: 1rem;
+    }
+
+    .item-cell small {
+        font-size: 0.9rem;
+    }
+
+    .half-price,
+    .full-price {
+        font-size: 1rem;
+    }
+
+    .item-column {
+        padding-left: 10px !important;
+    }
+
+    .item-cell {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .fresh-salads-container {
+        width: 94%;
+        padding: 15px 10px;
+        padding-top: 120px;
+    }
+
+    .salads-table th {
+        padding: 8px 3px;
+        font-size: 0.8rem;
+    }
+
+    .salads-table td {
+        padding: 8px 3px;
+    }
+
+    .item-cell strong {
+        font-size: 0.9rem;
+    }
+
+    .half-price,
+    .full-price {
+        font-size: 0.9rem;
+    }
+
+    .half-column,
+    .full-column {
+        min-width: 70px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .salads-table {
+        font-size: 0.8rem;
+    }
+
+    .salads-table th {
+        padding: 6px 2px;
+        font-size: 0.95rem;
+    }
+
+    .salads-table td {
+        padding: 6px 2px;
+    }
+
+    .item-cell strong {
+        font-size: 0.9rem;
+    }
+
+    .item-cell small {
+        font-size: 0.8rem;
+    }
+
+    .half-price,
+    .full-price {
+        font-size: 0.8rem;
+    }
+
+    .half-column,
+    .full-column {
+        min-width: 60px;
+    }
+}
+
+.fresh-salads-image {
+    width: 250px;
+    position: absolute;
+    top: 6%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.fresh-salads-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+    .fresh-salads-image {
+        width: 230px;
+        top: 4%;
+        right: -15%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .fresh-salads-image {
+        width: 200px;
+        top: 2%;
+        right: -15%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .fresh-salads-image {
+        width: 180px;
+        top: 2%;
+        right: -20%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .fresh-salads-image {
+        width: 150px;
+        top: 0%;
+        right: 50%;
+        transform: translate(50%, 0%);
+    }
+}

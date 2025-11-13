@@ -1,0 +1,7 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+# Allow Prerender bot
+User-agent: Prerender
+Allow: /

@@ -1,0 +1,68 @@
+[build]
+  # Build command
+  command = "npm run build"
+  # Directory to publish (Netlify will deploy this folder)
+  publish = "build"
+  # Functions directory (optional, for serverless functions)
+  # functions = "netlify/functions"
+
+[build.environment]
+  # Node version
+  NODE_VERSION = "18"
+
+# Redirect rules for SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for Prerender integration
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Prerender token header
+    X-Prerender-Token = "63GIOd8cXk4djS1KyRyD"
+    # Cache control for HTML files
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Cache static assets
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.woff"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
